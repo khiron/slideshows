@@ -232,10 +232,8 @@ $Jaccard = \frac{I}{U}$
 
 # Result 2 Jaccard distance vs PD
 
- > WARNING replace JC69 with PD
-
-Relationship between Jaccard and PD 
-![bg right fit](image/PD_vs_Jaccard.png)
+ 
+![bg fit](images/PD_vs_jaccard_LOWESS_fit.png)
 
 # Term: *Stone metric (SM)*
 
@@ -245,7 +243,7 @@ $SM =  \frac{sum\ of\ Braid\ differences}{sum\ of\ Braid\ lengths}$
 
 # Result 2 Stone braid metric
 
-- relationship between Stone metric and PD
+![bg fit](images/HMP_ENSG00000143774_madb_vs_pd_LOWESS.png)
 
 # Summary for hypothesis 2 
 
