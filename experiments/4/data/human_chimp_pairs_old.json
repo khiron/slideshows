@@ -1,0 +1,453 @@
+{
+  "ENSG00000007923": {
+    "filename": "ENSG00000007923.fasta",
+    "differences": 9,
+    "total": 1680,
+    "cogent3_time_sec": 0.15929868794046342,
+    "madb_time_sec": 0.02265656809322536
+  },
+  "ENSG00000008130": {
+    "filename": "ENSG00000008130.fasta",
+    "differences": 767,
+    "total": 1341
+  },
+  "ENSG00000041988": {
+    "filename": "ENSG00000041988.fasta",
+    "differences": 6,
+    "total": 720
+  },
+  "ENSG00000067606": {
+    "filename": "ENSG00000067606.fasta",
+    "differences": 4,
+    "total": 288
+  },
+  "ENSG00000069424": {
+    "filename": "ENSG00000069424.fasta",
+    "differences": 5,
+    "total": 1248,
+    "cogent3_time_sec": 0.05197967495769262,
+    "madb_time_sec": 0.014534620102494955
+  },
+  "ENSG00000069812": {
+    "filename": "ENSG00000069812.fasta",
+    "differences": 0,
+    "total": 522,
+    "cogent3_time_sec": 0.017456511966884136,
+    "madb_time_sec": 0.0016758840065449476
+  },
+  "ENSG00000078369": {
+    "filename": "ENSG00000078369.fasta",
+    "differences": 3,
+    "total": 1023,
+    "cogent3_time_sec": 0.0356798421125859,
+    "madb_time_sec": 0.01039771898649633
+  },
+  "ENSG00000078808": {
+    "filename": "ENSG00000078808.fasta",
+    "differences": 715,
+    "total": 1068
+  },
+  "ENSG00000078900": {
+    "filename": "ENSG00000078900.fasta",
+    "differences": 19,
+    "total": 1911
+  },
+  "ENSG00000097021": {
+    "filename": "ENSG00000097021.fasta",
+    "differences": 796,
+    "total": 1113
+  },
+  "ENSG00000107404": {
+    "filename": "ENSG00000107404.fasta",
+    "differences": 1068,
+    "total": 2088
+  },
+  "ENSG00000116151": {
+    "filename": "ENSG00000116151.fasta",
+    "differences": 268,
+    "total": 1494
+  },
+  "ENSG00000116198": {
+    "filename": "ENSG00000116198.fasta",
+    "differences": 20,
+    "total": 2778
+  },
+  "ENSG00000116213": {
+    "filename": "ENSG00000116213.fasta",
+    "differences": 13,
+    "total": 1383
+  },
+  "ENSG00000116237": {
+    "filename": "ENSG00000116237.fasta",
+    "differences": 4,
+    "total": 855,
+    "cogent3_time_sec": 0.026222980115562677,
+    "madb_time_sec": 0.009795688092708588
+  },
+  "ENSG00000116251": {
+    "filename": "ENSG00000116251.fasta",
+    "differences": 0,
+    "total": 387,
+    "cogent3_time_sec": 0.00800460809841752,
+    "madb_time_sec": 0.0012390140909701586
+  },
+  "ENSG00000116254": {
+    "filename": "ENSG00000116254.fasta",
+    "differences": 3118,
+    "total": 5865
+  },
+  "ENSG00000116273": {
+    "filename": "ENSG00000116273.fasta",
+    "differences": 3,
+    "total": 903,
+    "cogent3_time_sec": 0.12493489310145378,
+    "madb_time_sec": 0.013784331968054175
+  },
+  "ENSG00000127054": {
+    "filename": "ENSG00000127054.fasta",
+    "differences": 1220,
+    "total": 1803
+  },
+  "ENSG00000130762": {
+    "filename": "ENSG00000130762.fasta",
+    "differences": 530,
+    "total": 2106
+  },
+  "ENSG00000130764": {
+    "filename": "ENSG00000130764.fasta",
+    "differences": 15,
+    "total": 1752
+  },
+  "ENSG00000131584": {
+    "filename": "ENSG00000131584.fasta",
+    "differences": 9,
+    "total": 2505,
+    "cogent3_time_sec": 0.18139158794656396,
+    "madb_time_sec": 0.032292909221723676
+  },
+  "ENSG00000131591": {
+    "filename": "ENSG00000131591.fasta",
+    "differences": 419,
+    "total": 597
+  },
+  "ENSG00000131697": {
+    "filename": "ENSG00000131697.fasta",
+    "differences": 29,
+    "total": 4281
+  },
+  "ENSG00000142606": {
+    "filename": "ENSG00000142606.fasta",
+    "differences": 27,
+    "total": 2340
+  },
+  "ENSG00000142609": {
+    "filename": "ENSG00000142609.fasta",
+    "differences": 2494,
+    "total": 4668
+  },
+  "ENSG00000142611": {
+    "filename": "ENSG00000142611.fasta",
+    "differences": 31,
+    "total": 3831
+  },
+  "ENSG00000149527": {
+    "filename": "ENSG00000149527.fasta",
+    "differences": 2382,
+    "total": 3390
+  },
+  "ENSG00000157870": {
+    "filename": "ENSG00000157870.fasta",
+    "differences": 408,
+    "total": 597
+  },
+  "ENSG00000157873": {
+    "filename": "ENSG00000157873.fasta",
+    "differences": 10,
+    "total": 852
+  },
+  "ENSG00000157911": {
+    "filename": "ENSG00000157911.fasta",
+    "differences": 12,
+    "total": 981
+  },
+  "ENSG00000157916": {
+    "filename": "ENSG00000157916.fasta",
+    "differences": 4,
+    "total": 591
+  },
+  "ENSG00000157933": {
+    "filename": "ENSG00000157933.fasta",
+    "differences": 1449,
+    "total": 2187
+  },
+  "ENSG00000158109": {
+    "filename": "ENSG00000158109.fasta",
+    "differences": 5,
+    "total": 819
+  },
+  "ENSG00000158286": {
+    "filename": "ENSG00000158286.fasta",
+    "differences": 16,
+    "total": 1905
+  },
+  "ENSG00000158292": {
+    "filename": "ENSG00000158292.fasta",
+    "differences": 17,
+    "total": 1830
+  },
+  "ENSG00000160072": {
+    "filename": "ENSG00000160072.fasta",
+    "differences": 1215,
+    "total": 1695
+  },
+  "ENSG00000160087": {
+    "filename": "ENSG00000160087.fasta",
+    "differences": 475,
+    "total": 780
+  },
+  "ENSG00000162408": {
+    "filename": "ENSG00000162408.fasta",
+    "differences": 17,
+    "total": 2109
+  },
+  "ENSG00000162413": {
+    "filename": "ENSG00000162413.fasta",
+    "differences": 17,
+    "total": 1794
+  },
+  "ENSG00000162571": {
+    "filename": "ENSG00000162571.fasta",
+    "differences": 971,
+    "total": 1383
+  },
+  "ENSG00000162572": {
+    "filename": "ENSG00000162572.fasta",
+    "differences": 33,
+    "total": 2409
+  },
+  "ENSG00000162576": {
+    "filename": "ENSG00000162576.fasta",
+    "differences": 843,
+    "total": 1329
+  },
+  "ENSG00000162585": {
+    "filename": "ENSG00000162585.fasta",
+    "differences": 5,
+    "total": 543
+  },
+  "ENSG00000162591": {
+    "filename": "ENSG00000162591.fasta",
+    "differences": 2980,
+    "total": 4512
+  },
+  "ENSG00000162592": {
+    "filename": "ENSG00000162592.fasta",
+    "differences": 29,
+    "total": 1971
+  },
+  "ENSG00000169598": {
+    "filename": "ENSG00000169598.fasta",
+    "differences": 10,
+    "total": 1017
+  },
+  "ENSG00000169717": {
+    "filename": "ENSG00000169717.fasta",
+    "differences": 8,
+    "total": 1134
+  },
+  "ENSG00000169885": {
+    "filename": "ENSG00000169885.fasta",
+    "differences": 8,
+    "total": 546
+  },
+  "ENSG00000169962": {
+    "filename": "ENSG00000169962.fasta",
+    "differences": 26,
+    "total": 2559
+  },
+  "ENSG00000169972": {
+    "filename": "ENSG00000169972.fasta",
+    "differences": 9,
+    "total": 912
+  },
+  "ENSG00000171680": {
+    "filename": "ENSG00000171680.fasta",
+    "differences": 2156,
+    "total": 3021
+  },
+  "ENSG00000171735": {
+    "filename": "ENSG00000171735.fasta",
+    "differences": 27,
+    "total": 5022,
+    "cogent3_time_sec": 1.2324396511539817,
+    "madb_time_sec": 0.12597268098033965
+  },
+  "ENSG00000173662": {
+    "filename": "ENSG00000173662.fasta",
+    "differences": 22,
+    "total": 2526
+  },
+  "ENSG00000173673": {
+    "filename": "ENSG00000173673.fasta",
+    "differences": 23,
+    "total": 558
+  },
+  "ENSG00000175756": {
+    "filename": "ENSG00000175756.fasta",
+    "differences": 3,
+    "total": 600,
+    "cogent3_time_sec": 0.015331435017287731,
+    "madb_time_sec": 0.007446852046996355
+  },
+  "ENSG00000176022": {
+    "filename": "ENSG00000176022.fasta",
+    "differences": 8,
+    "total": 990
+  },
+  "ENSG00000178821": {
+    "filename": "ENSG00000178821.fasta",
+    "differences": 386,
+    "total": 612
+  },
+  "ENSG00000179403": {
+    "filename": "ENSG00000179403.fasta",
+    "differences": 9,
+    "total": 1338
+  },
+  "ENSG00000184163": {
+    "filename": "ENSG00000184163.fasta",
+    "differences": 9,
+    "total": 909
+  },
+  "ENSG00000186827": {
+    "filename": "ENSG00000186827.fasta",
+    "differences": 544,
+    "total": 819
+  },
+  "ENSG00000186891": {
+    "filename": "ENSG00000186891.fasta",
+    "differences": 104,
+    "total": 726
+  },
+  "ENSG00000187642": {
+    "filename": "ENSG00000187642.fasta",
+    "differences": 61,
+    "total": 2373
+  },
+  "ENSG00000187730": {
+    "filename": "ENSG00000187730.fasta",
+    "differences": 933,
+    "total": 1359
+  },
+  "ENSG00000188157": {
+    "filename": "ENSG00000188157.fasta",
+    "differences": 2057,
+    "total": 6138
+  },
+  "ENSG00000188976": {
+    "filename": "ENSG00000188976.fasta",
+    "differences": 1425,
+    "total": 2127
+  },
+  "ENSG00000189339": {
+    "filename": "ENSG00000189339.fasta",
+    "differences": 13,
+    "total": 1218
+  },
+  "ENSG00000189409": {
+    "filename": "ENSG00000189409.fasta",
+    "differences": 4,
+    "total": 1173,
+    "cogent3_time_sec": 0.04626090498641133,
+    "madb_time_sec": 0.013245520880445838
+  },
+  "ENSG00000196581": {
+    "filename": "ENSG00000196581.fasta",
+    "differences": 12,
+    "total": 1236
+  },
+  "ENSG00000197530": {
+    "filename": "ENSG00000197530.fasta",
+    "differences": 1964,
+    "total": 2868
+  },
+  "ENSG00000197785": {
+    "filename": "ENSG00000197785.fasta",
+    "differences": 1254,
+    "total": 1761
+  },
+  "ENSG00000198912": {
+    "filename": "ENSG00000198912.fasta",
+    "differences": 9,
+    "total": 732
+  },
+  "ENSG00000204859": {
+    "filename": "ENSG00000204859.fasta",
+    "differences": 7,
+    "total": 2067,
+    "cogent3_time_sec": 0.12974411598406732,
+    "madb_time_sec": 0.02495024213567376
+  },
+  "ENSG00000205090": {
+    "filename": "ENSG00000205090.fasta",
+    "differences": 0,
+    "total": 522,
+    "cogent3_time_sec": 0.01221481803804636,
+    "madb_time_sec": 0.0016409889794886112
+  },
+  "ENSG00000205116": {
+    "filename": "ENSG00000205116.fasta",
+    "differences": 107,
+    "total": 414
+  },
+  "ENSG00000215788": {
+    "filename": "ENSG00000215788.fasta",
+    "differences": 498,
+    "total": 1254
+  },
+  "ENSG00000215912": {
+    "filename": "ENSG00000215912.fasta",
+    "differences": 1365,
+    "total": 2694
+  },
+  "ENSG00000215915": {
+    "filename": "ENSG00000215915.fasta",
+    "differences": 228,
+    "total": 948
+  },
+  "ENSG00000221978": {
+    "filename": "ENSG00000221978.fasta",
+    "differences": 1081,
+    "total": 1563
+  },
+  "ENSG00000224051": {
+    "filename": "ENSG00000224051.fasta",
+    "differences": 5,
+    "total": 645
+  },
+  "ENSG00000228594": {
+    "filename": "ENSG00000228594.fasta",
+    "differences": 4,
+    "total": 681
+  },
+  "ENSG00000235098": {
+    "filename": "ENSG00000235098.fasta",
+    "differences": 469,
+    "total": 1188
+  },
+  "ENSG00000235169": {
+    "filename": "ENSG00000235169.fasta",
+    "differences": 3,
+    "total": 237
+  },
+  "ENSG00000237330": {
+    "filename": "ENSG00000237330.fasta",
+    "differences": 427,
+    "total": 723
+  },
+  "ENSG00000242485": {
+    "filename": "ENSG00000242485.fasta",
+    "differences": 128,
+    "total": 450
+  }
+}

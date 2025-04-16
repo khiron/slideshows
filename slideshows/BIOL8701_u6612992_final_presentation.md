@@ -30,70 +30,70 @@ style: |
 <!-- paginate: true -->
 <!-- paginate: hold -->
 
-![bg fit 60%](images/paddy_cow_sample.drawio.svg)
+![bg fit 55%](images/paddy_cow_sample.drawio.svg)
 <!-- _footer: "Original artwork motivated by chatGPT 4o"-->
 
 # Where does alignment fit in genomics?
-![bg fit 60%](images/paddy_cow_amplification.drawio.svg)
+![bg fit 55%](images/paddy_cow_amplification.drawio.svg)
 
-<!-- _footer: "Original artwork motivated by chatGPT 4o"-->
-
-# Where does alignment fit in genomics?
-![bg fit 60%](images/paddy_cow_assembly.drawio.svg)
-
-<!-- _footer: "Original artwork motivated by chatGPT 4o"-->
 
 # Where does alignment fit in genomics?
-![bg fit 60%](images/paddy_cow_alignment.drawio.svg)
+![bg fit 55%](images/paddy_cow_assembly.drawio.svg)
 
-<!-- _footer: "Original artwork motivated by chatGPT 4o"-->
-# Algorithm: Needleman-Wunsch$_3$ pairwise alignment
+
+# Where does alignment fit in genomics?
+![bg fit 55%](images/paddy_cow_alignment.drawio.svg)
+
+# Algorithm: Needleman-Wunsch$^1$ pairwise alignment
 <!-- paginate: true -->
 
 ![fit](images/needleman_wunsch_0.drawio.svg)
-<!-- _footer: "<sup>3</sup>[Needleman & Wunsch, 1970  doi.org/10.1016/0022-2836(70)90057-4](https://doi.org/10.1016/0022-2836(70)90057-4)" -->
+<!-- _footer: "<sup>1</sup>[Needleman & Wunsch, 1970  doi.org/10.1016/0022-2836(70)90057-4](https://doi.org/10.1016/0022-2836(70)90057-4)" -->
 
-# Algorithm: Needleman-Wunsch$_3$ pairwise alignment
+# Algorithm: Needleman-Wunsch pairwise alignment
 <!-- paginate: hold -->
 
 ![fit](images/needleman_wunsch_1.drawio.svg)
-<!-- _footer: "<sup>3</sup>[Needleman & Wunsch, 1970  doi.org/10.1016/0022-2836(70)90057-4](https://doi.org/10.1016/0022-2836(70)90057-4)" -->
 
-# Algorithm: Needleman-Wunsch$_3$ pairwise alignment
+# Algorithm: Needleman-Wunsch pairwise alignment
 <!-- paginate: hold -->
 
 ![fit](images/needleman_wunsch_2.drawio.svg)
-<!-- _footer: "<sup>3</sup>[Needleman & Wunsch, 1970  doi.org/10.1016/0022-2836(70)90057-4](https://doi.org/10.1016/0022-2836(70)90057-4)" -->
 
-# Algorithm: Smith Waterman$_5$ local alignment
+# Algorithm: Smith Waterman$^2$ local alignment
 <!-- paginate: true -->
 
 ![fit](images/smith_waterman.drawio.svg)
 
-<!-- _footer: "<sup>4</sup>[Smith & Waterman, 1981  10.1016/0022-2836(81)90087-5](https://doi.org/10.1016/0022-2836(81)90087-5)" -->
+<!-- _footer: "<sup>2</sup>[Smith & Waterman, 1981  10.1016/0022-2836(81)90087-5](https://doi.org/10.1016/0022-2836(81)90087-5)" -->
 
 # Multiple sequence alignment
 "Multiple sequence alignment is just pairwise alignment, repeated many times".
 <br/>
 <br/>
 
-Complexity order: $O((n-1).L^2)$ 
+Progressive multisequence alignment: $O(nL^2)$ 
   - $L$ = length of sequence
   - $n$ = number of sequences
 
-# Algorithm: de Bruijn$_1$ graphs
+# Algorithm: de Bruijn$^3$ graphs
 <!-- paginate: true -->
 
-![fit](images/debruijngraph_example.drawio.svg)
-<!-- _footer: "<sup>1</sup> de Bruijn (1946) -->
+![bg fit 80%](images/debruijngraph_example.drawio.svg)
+<!-- _footer: "<sup>3</sup> de Bruijn (1946) -->
 
 # Algorithm: de Bruijn graphs
 <!-- paginate: hold -->
 
+![bg fit 80%](images/debruijngraph_example_1.drawio.svg)
+
+# Algorithm: de Bruijn graphs
+<!-- _paginate: true -->
+
 ![fit](images/debruijngraph_parts_0.drawio.svg)
 
 # Algorithm: de Bruijn graphs
-<!-- _paginate: hold -->
+<!-- paginate: hold -->
 
 ![fit](images/debruijngraph_parts_1.drawio.svg)
 
@@ -103,65 +103,59 @@ Complexity order: $O((n-1).L^2)$
 ![fit](images/debruijngraph_parts_2.drawio.svg)
 <!-- _footer: "<sup>2</sup>[Karlin & Altschul, 1990  doi.org/10.1073/pnas.87.6.2264](https://doi.org/10.1073/pnas.87.6.2264)" -->
 
-# Algorithm: Karlin Altschul$_2$ test
+# Algorithm: Karlin Altschul$^4$ test
 <!-- _paginate: true -->
+The Karlin–Altschul test is used to assess the significance of local sequence alignments.  
 
-The Karlin–Altschul test is a statistical framework used to assess the significance of high-scoring segment pairs (HSPs) in local sequence alignments, particularly in tools like BLAST.
-
-It models the distribution of maximum alignment scores between two random sequences as following a Gumbel (extreme value) distribution
+Models the distribution of maximum alignment scores between two random sequences using a Gumbel (extreme value) distribution
 
 $$E = K.m.n.e^{-\lambda S}$$
-- $E$: expected number of alignments with score $\geq$ S
-- $K$: scale (depends on scoring scheme)
-- $\lambda$: decay (depends on scoring scheme)
-- S: alignment score
-- m: length of sequence 1
-- n: length of sequence 2
 
-<!-- _footer: "<sup>2</sup>[Karlin & Altschul, 1990  doi.org/10.1073/pnas.87.6.2264](https://doi.org/10.1073/pnas.87.6.2264)" -->
+ - $E$: expected number of alignments with score $\geq$ S
+ - $K$: scale & $\lambda$: decay (dependent on scoring scheme)
+ - $S$: alignment score
+ - $m$: length of sequence 1 & $n$: length of sequence 2
 
-# Algorithm: Karlin Altschul$_2$ test **for biologists**
+<!-- _footer: "<sup>4</sup>[Karlin & Altschul, 1990  doi.org/10.1073/pnas.87.6.2264](https://doi.org/10.1073/pnas.87.6.2264)" -->
+
+# Algorithm: Karlin Altschul test **for biologists**
 <!-- _paginate: hold -->
 
-If a potential local alignment, containing substitutions, meets a threshold (p-value) for equality.
+Whether a local alignment, containing substitutions, meets a threshold (p-value) for equality.
 
-<br/>
-
-ie: are `CAC|A|GTAC` and `CAC|T|GTAC`, below, significantly (p=0.05) the same sequence?
+ie: If the local alignment `CAC|A|GTAC` & `CAC|T|GTAC` meets the threshold, it is a **qualified braid**.
 
 ![fit](images/debruijngraph_parts_2b.drawio.svg)
 
-<!-- _footer: "<sup>2</sup>[Karlin & Altschul, 1990  doi.org/10.1073/pnas.87.6.2264](https://doi.org/10.1073/pnas.87.6.2264)" -->
-
-# Experimental data
+# Base data and methods
 
 - Mammal genomes obtained from **Ensembl**: release 113 (current release)
-- **Queried**: using `ensembl-tui` (Text User-Interface) application
+- **Queried**: using `ensembl-tui`application
 - **Extracted**: 1597 one-to-one orthologs to human chromosome 1 protein coding genes 
-- **Aligned**: using cogent3 (pair-HMM) and MADB (de Bruijn graph) algorithms
+- **Alignment**
+  - cogent3 (Smith-Waterman, Needleman-Wunsch)
+  - madb (de Bruijn graph)
 
 # Hypothesis 1
 <!-- paginate: true -->
 
 <br/>
 
-The longest braid in a pair of sequences will correspond to the ungapped Smith-Waterman local alignment.* 
+The longest braid in a pair of sequences corresponds to the ungapped Smith-Waterman local alignment.* 
 
 <br/>
 
-![bg right fit 60%](images/experiment1.drawio.svg)
+![bg right fit 90%](images/experiment1.drawio.svg)
 
-<!-- _footer: "* a gap not required within $k$ characters of the start of a bubble
-
-or a cycle that has been stashed in just one sequence path"-->
+<!-- _footer: "* a gap not within $k$ characters of the start or end of a bubble ... "-->
 
 # Background for Hypothesis 1
 
-*A braid has no gaps, this corresponds to a local alignment*
+*A braid has no gaps, this corresponds to an ungapped local alignment*
 
 <br/>
 
-- The Smith-Waterman algorithm is an optimal solution for finding the highest scoring local alignment
+- the Smith-Waterman algorithm is an optimal solution for finding the highest scoring local alignment
 - the longest braid in a de Bruijn graph should equal the Smith-Waterman alignment
 
 # Results - longest braid vs ungapped Smith-Waterman
@@ -176,7 +170,7 @@ produces **just one** best local alignment in quadratic time $O(L^2)$
 
 ### de Bruijin graph 
 
-produces **every** local alignment in linear time $O(\Sigma L)$
+produces **every** local alignment in linear time $O(L)$
 
 ![bg 80% right](images/blank.drawio.svg)
 
@@ -189,7 +183,7 @@ produces **just one** best local alignment in quadratic time $O(L^2)$
 
 ### Bruijin graph 
 
-produces **every** local alignment in linear time $O(\Sigma L)$
+produces **every** local alignment in linear time $O(L)$
 
 ![bg 80% right](images/linear_vs_quadratic.png)
 
@@ -197,20 +191,20 @@ produces **every** local alignment in linear time $O(\Sigma L)$
 # Hypothesis 2
 <!-- paginate: true -->
 
-Differences in braids, will be a better approximation to the true *genetic distance* than *Jaccard*.
+Differences in braids, will be a better approximation to the actual *genetic distance* than *Jaccard*.
 
 
-![bg right fit 60%](images/experiment2.drawio.svg)
+![bg right fit 90%](images/experiment2.drawio.svg)
 
 # Background for Hypothesis 2
 
-- Genetic distance is the time since two species diverged from a common ancestor
-- Influences the likelihood that 2 sequences containing substitutions are the same
+- Genetic distance is proportional to the time since two sequences diverged from a common ancestor
+- Influences the probability that two nucleotides are a "match" (descended from a common ancestor)
 - Required to construct reliable scoring functions for alignment methods
 
 # Term: *Genetic distance*
 
-### Consider the proportionate difference (PD) between 2 *aligned* sequences.
+### Consider the proportion different (PD) between 2 *aligned* sequences.
 
 $$PD=\frac{substitutions}{positions}$$
 
@@ -224,41 +218,47 @@ $$PD_{human,wombat}=\frac{13}{50} = 0.26$$
 
 - **Jaccard** distance is a measure of dissimilarity between two sets, defined as the size of the intersection divided by the size of the union of the sets.
 
-$Jaccard = \frac{I}{U}$ 
-
 - Jaccard can be calculated for *unaligned* sequences, by decomposing them into $k$-mers and comparing the ratio of common $k$-mers to total $k$-mers
-- it is used to infer genetic distance for many modern alignment methods.
 
+$$Jaccard = \frac{I}{U}$$ 
+
+# Key insight
+
+By qualifying braid sequences per the *Karlin-Altshul* test, we are able to observe the proportion of nucleotides different in local alignments.  
+
+This offers a measure of genetic distance between "unaligned" sequences.
+> Thanks to Eric Stone for this valuable insight
 
 # Result 2 Jaccard distance vs PD
-
  
-![bg fit](images/PD_vs_jaccard_LOWESS_fit.png)
+![bg 65% fit](images/PD_vs_jaccard_LOWESS_fit.png)
 
 # Term: *Stone metric (SM)*
 
-Under the assumption that the expected number of substitutions that have occurred in seqeuences since the last common ancestor are evenly distributed across the sequences, the PD of all local alignments of the sequences will approach the PD of fully aligned sequences. 
+![alt text](image-2.png)
 
-$SM =  \frac{sum\ of\ Braid\ differences}{sum\ of\ Braid\ lengths}$ 
+The PD of all local alignments of the sequences will approach the PD of fully aligned sequences. 
+
+$$SM =  \frac{sum\ of\ Braid\ differences}{sum\ of\ Braid\ lengths}$$ 
+
 
 # Result 2 Stone braid metric
 
-![bg fit](images/HMP_ENSG00000143774_madb_vs_pd_LOWESS.png)
+![bg 60% fit](images/HMP_ENSG00000143774_madb_vs_pd_LOWESS.png)
 
 # Summary for hypothesis 2 
 
-- Jaccard distance is a poor approximation of PD as it is noisy, and mapping functions of one to the other are context dependent on the species being aligned 
-- Stone metric is a better approximation of PD as it constrains the search space to all local alignments of the sequences
-
+- Jaccard distance is a poor approximation of PD as it is noisy, and context dependent on the sequence being aligned 
+- The Stone metric has been affected by a bug we have in resolving cycles
 
 # Hypothesis 3
-<!-- paginate: hold -->
+<!-- paginate: true -->
 
 We predict that the de Brujin graph aligner will perform (statistically and computationally) better with less diverged sequences.
 
 <br/>
 
-![bg right fit 60%](images/experiment3.drawio.svg)
+![bg right fit 90%](images/experiment3.drawio.svg)
 
 # Background for Hypothesis 3
 
@@ -266,8 +266,11 @@ We predict that the de Brujin graph aligner will perform (statistically and comp
 
 ![alt text](image-4.png)
 
+Key insights: 
+- for a given sequence the number of cycles will decrease as you increase $k$
+- our ability to find braids will improve as we decrease $k$
 
-# Result
+# Result - TBD 
 
 ### MADB accuracy and performance by divergence
 
@@ -282,23 +285,12 @@ We predict that the de Brujin graph aligner will perform (statistically and comp
 |---|---|---|
 | 1st|TBD|TBD|
 | 4th|TBD|TBD|
-|---|---|---|
 
-| mean sum of pairwise differences | mean performance (s) | mean memory (MB) |
-|---|---|---|
-| TBD | TBD | TBD |
-| TBD | TBD | TBD |
-
-||diverged|close|
-|---|---|---|
-|human-chimpanzee|TBD|TBD|TBD|
-|human-mouse|TBD|TBD|TBD|
 
 # Summary for hypothesis 3
 
-- braids can be resolved in linear time $O(\Sigma L)$
-- bubbles require a quadratic time complexity $O(L^2)$ to resolve
-- more divergent sequences will have a higher ratio of positions in bubbles to those in braids, and therefore a higher time complexity
+- the algorithm we are using to resolve cycles needs to be made more robust to sequence divergence
+- next step is sampling another primate lineage more diverged from humans than chimpanzee such as marmoset
 
 # Hypothesis 4
 <!-- paginate: hold -->
@@ -309,16 +301,15 @@ de Bruijn graph alignment will be more computationally efficient than Needleman-
 
 <br/>
 
-![bg right fit 60%](images/experiment4.drawio.svg)
+![bg right fit 90%](images/experiment4.drawio.svg)
 
+# Results
 
-# Result 
-
-###### Human to Chimpanzee orthologous gene alignment
+![bg 70% fit](images/cogent3_vs_madb_alignment.png)
 
 # Summary for hypothesis 4
 
-- de Bruijn graph alignment is more computationally efficient than Needleman-Wunsch because it only requires costly computation 
+- de Bruijn graph alignment is more computationally efficient than Needleman-Wunsch because it reduces costly computation 
 
 # Thanks
 
@@ -339,11 +330,10 @@ ul {font-size: 1.5em; }
 
 # Citations
 <!-- paginate: False -->
+1. [Needleman & Wunsch(1970), 'A general method applicable to the search for similarities in the amino acid sequence of two proteins'  doi.org/10.1016/0022-2836(70)90057-4, 2010](https://doi.org/10.1016/0022-2836(70)90057-4)
+1. [Smith & Waterman(1981), 'Identification of Common Molecular Subsequences.'  doi.org/10.1016/0022-2836(81)90087-5](https://doi.org/10.1016/0022-2836(81)90087-5)
 1. de Bruijn(1946) 'A Combinatorial Problem.' Koninklijke Nederlandse Akademie van Wetenschappen, Proceedings 49 (1946): 758–64.
-2. [Karlin & Altschul(1990), 'Methods for assessing the statistical significance of molecular sequence features by using general scoring schemes'  doi.org/10.1073/pnas.87.6.2264](https://doi.org/10.1073/pnas.87.6.2264)
-3. [Needleman & Wunsch(1970), 'A general method applicable to the search for similarities in the amino acid sequence of two proteins'  doi.org/10.1016/0022-2836(70)90057-4, 2010](https://doi.org/10.1016/0022-2836(70)90057-4)
-4. [Pevzner, Haixu & Waterman(2001), 'An Eulerian Path Approach to DNA Fragment Assembly.' doi.org/10.1073/pnas.171285098 ](https://doi.org/10.1073/pnas.171285098)
-5. [Smith & Waterman(1981), 'Identification of Common Molecular Subsequences.'  doi.org/10.1016/0022-2836(81)90087-5](https://doi.org/10.1016/0022-2836(81)90087-5)
+1. [Karlin & Altschul(1990), 'Methods for assessing the statistical significance of molecular sequence features by using general scoring schemes'  doi.org/10.1073/pnas.87.6.2264](https://doi.org/10.1073/pnas.87.6.2264)
 
 
 # Addendum - Removing cycles
